@@ -1,3 +1,7 @@
+#!/bin/bash
+
+DOTFILES="$HOME/dotfiles"
+
 # zsh
-rm ~/.zshrc
-ln -sf ~/dotfiles/zsh/.zshrc ~/.zshrc
+rm -f ~/.zshrc
+ln -sf $DOTFILES/zsh/.zshrc ~/.zshrc
